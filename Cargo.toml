@@ -15,6 +15,10 @@ include = ["git-gone.1", "git-gone.1.adoc"]
 [dependencies]
 clap = "^2"
 
+[[bin]]
+name = "git-gone"
+path = "src/main.rs"
+
 [dependencies.git2]
 version = "^0.13"
 # Disable all features of git2; we only use a small subset of the library and do not need any of these.
